@@ -4,7 +4,7 @@ Here are some interesting code will be stored.
 
 like this: 
 ``` c++
-c++ #include <iostream> 
+#include <iostream> 
 using namespace std; 
 int main(){ 
 cout << "Hello Git!" << endl; 
