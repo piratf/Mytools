@@ -1,4 +1,4 @@
-#Readme of PastEx
+#Readme of PastEr
 
 <!-- Readme in Endlish -->
 ##In Endlish:
