@@ -76,7 +76,7 @@ Del: 是专门用来删除单个文件的，其中
 Have fun!
 [文章链接:潘雄飞的博客][潘雄飞的博客]
 
-[潘雄飞的博客]:http://piratf.github.io/
+[潘雄飞的博客]:http://piratf.github.io/2015/01/30/forcedelete%E6%89%B9%E5%A4%84%E7%90%86%E5%8F%8A%E6%B3%A8%E6%84%8F%E4%BA%8B%E9%A1%B9/
 [Github]:https://github.com/piratf/Mytools
 [通用命名规则-baike]:http://baike.baidu.com/view/244940.htm
 [参考自卡饭论坛]:http://bbs.kafan.cn/thread-544402-1-1.html
