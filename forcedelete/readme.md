@@ -1,9 +1,3 @@
-title: Forcedelete批处理介绍及注意事项
-date: 2015-01-30 10:46:07
-categories: [cmd, windows, tips]
-tags: [cmd, windows, tips]
----
-
 ##Forcedelete批处理
 
 用于Windows下删除各种疑难文件的批处理。
