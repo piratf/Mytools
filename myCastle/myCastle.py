@@ -5,6 +5,11 @@ import random
 import sys
 from pygame.locals import *
 
+__author__ = 'piratf'
+__blog__ = 'http://piratf.github.io/'
+# thank to Julian Meyer
+# https://plus.google.com/u/0/117404693911977592313?rel=author
+
 # DIY 
 class gameConfig(object):
     def __init__(self):
@@ -141,7 +146,7 @@ while game.running:
     for badguy in badger.badguys:
         screen.blit(badguyimg, badguy)
     # 6.4 - Draw clock
-    font = pygame.font.Font(None, 24)
+    font = pygame.font.Font("resources\YaHei.Consolas.1.11b.ttf", 24)
     survivedtext = font.render(str((90000 - pygame.time.get_ticks()) / 60000) + ":"+str((90000-pygame.time.get_ticks())/1000%60).zfill(2), True, (0,0,0))
     textRect = survivedtext.get_rect()
     textRect.topright = [635, 5]
@@ -206,7 +211,7 @@ while game.running:
 # 11 - Win/lose display
 if game.exitcode == 0:
     pygame.font.init()
-    font = pygame.font.Font(None, 24)
+    font = pygame.font.Font("resources\YaHei.Consolas.1.11b.ttf", 24)
     text = font.render("Accuracy: " + str(rabbit.accuracy) + "%", True, (255, 0, 0))
     textRect = text.get_rect()
     textRect.centerx = screen.get_rect().centerx
@@ -215,7 +220,7 @@ if game.exitcode == 0:
     screen.blit(text, textRect)
 else:
     pygame.font.init()
-    font = pygame.font.Font(None, 24)
+    font = pygame.font.Font("resources\YaHei.Consolas.1.11b.ttf", 24)
     text = font.render("Accuracy:" + str(rabbit.accuracy) + "%", True, (255, 0, 0))
     textRect = text.get_rect()
     textRect.centerx = screen.get_rect().centerx
