@@ -5,7 +5,6 @@
     Haven't try it on linux yet.
 
 *I'm not the Author of this code*，but this code is in the online public dissemination.
-I think it's fun and *try to learn it*.
 
 If this is a violation of your rights , please let me know.
 
