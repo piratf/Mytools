@@ -7,6 +7,7 @@ const int LIM = 1000; //LIM means shift.
 
 int change[N] = {};
 
+//Establish a mapping table
 void init(){
     int i;
     for(i = 'a'; i <= 'z'; i++)
@@ -46,7 +47,7 @@ void init(){
 }
 
 int main(){
-    init();
+    init(); // mapping
     freopen("file.txt", "r", stdin);
     puts("Now put the cursor in the right place you want to input.");
     Sleep(3000);
@@ -63,7 +64,7 @@ int main(){
             keybd_event(ch, (BYTE)0, KEYEVENTF_KEYUP,0);
             keybd_event(16, (BYTE)0, KEYEVENTF_KEYUP,0);
             continue;
-        }
+        }// Deal with case
         keybd_event(ch, (BYTE)0, 0 ,0);
         keybd_event(ch, (BYTE)0, KEYEVENTF_KEYUP,0);
         //Sleep(5);
