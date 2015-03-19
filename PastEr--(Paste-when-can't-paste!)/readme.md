@@ -5,7 +5,7 @@
 
 > * An insteresting programe to help you input some text when you can't paste;
 > * Can "paste" when you can't paste something directly.
-> * Only supports English now.
+> * Only supports ASCII now.
 
 ```
 1. Just write or paste the context in "file.txt", and run the program.
@@ -31,7 +31,7 @@
 
  > * 一个有趣的小软件，可以在某些不能直接粘贴的情况下帮助你自动输入写好的内容。
  > * 不能粘贴时达到粘贴的效果。
- > * 目前只支持英文字符。
+ > * 目前只支持ASCII字符。
 
 ```
 1. 只需要把需要输入的内容写到或先粘贴到 “file.txt” 中，然后运行程序。
