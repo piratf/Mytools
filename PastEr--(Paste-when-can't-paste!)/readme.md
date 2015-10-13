@@ -1,5 +1,9 @@
 #Readme of PastEr
 
+Control keyboard to input given strings in short time.
+Just like "paste" them in.
+When somewhere forbidden the paste operate.
+
 <!-- Readme in Endlish -->
 ##In Endlish:
 
